@@ -1,4 +1,14 @@
-var deleteMiddle = function (head) {
+/** Definition for singly-linked list. */
+function ListNode(val) {
+    this.val = val;
+    this.next = null;
+}
+
+/**
+ * @param {ListNode} head
+ * @return {boolean}
+ */
+var deleteMiddle = function(head) {
     if (!head.next) {
         return null;
     }
