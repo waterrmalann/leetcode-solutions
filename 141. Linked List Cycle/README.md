@@ -6,7 +6,7 @@ Detecting a cycle in a linked list involves recognizing that a cycle exists when
 
 ### 1. Set:
 
-This approach is one of the logically simpler solutions. It ivolves creating a set object, traversing through the linked list, checking if the element already exists in the set, and returning True if so. Otherwise, the node is added to the set. As checking for existence within a set is a constant-time operation, this approach is reasonably fast, with a time complexity of *O(n)* and space complexity of *O(n)* for the extra set.
+This approach is one of the logically simpler solutions. It involves creating a set object, traversing through the linked list, checking if the element already exists in the set, and returning True if so. Otherwise, the node is added to the set. As checking for existence within a set is a constant-time operation, this approach is reasonably fast, with a time complexity of *O(n)* and space complexity of *O(n)* for the extra set.
 
 ```py
 def hasCycle(head):
