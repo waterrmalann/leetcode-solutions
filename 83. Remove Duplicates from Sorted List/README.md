@@ -18,3 +18,4 @@ The problem is asking us to remove duplicate elements from a sorted linked list.
 # Code
 
 - [JavaScript](solution.js)
+- [TypeScript](solution.ts)
