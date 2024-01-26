@@ -19,3 +19,4 @@ The problem is asking us to remove duplicate elements from a sorted linked list.
 
 - [JavaScript](solution.js)
 - [TypeScript](solution.ts)
+- [Python](solution.py)
