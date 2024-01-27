@@ -48,9 +48,12 @@ def deleteNode(node):
 
 **2 Lines Solution**
 - [Python](solution.py)
+- [Javascript](solution.js)
 
 **Iterative**
 - [Python](solution_iterative.py)
+- [Javascript](solution_iterative.js)
 
 **Recursive**
 - [Python](solution_recursive.py)
+- [Javascript](solution_recursive.js)
