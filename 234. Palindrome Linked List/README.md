@@ -68,3 +68,4 @@ return True
 
 - [Python](solution.py)
 - [Javascript](solution.js)
+- [Typescript](solution.ts)
