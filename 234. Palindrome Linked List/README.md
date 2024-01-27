@@ -67,3 +67,4 @@ return True
 # Code
 
 - [Python](solution.py)
+- [Javascript](solution.js)
