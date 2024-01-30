@@ -92,6 +92,8 @@ N <- 1 <- 2 <- 3    // Pop:  reverseList(1)
 
 **Iterative Approach:**
 - [Python](solution_iterative.py)
+- [Javascript](solution_iterative.js)
 
 **Recursive Approach:**
 - [Python](solution_recursive.py)
+- [Javascript](solution_recursive.js)
