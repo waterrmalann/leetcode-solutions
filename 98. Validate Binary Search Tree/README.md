@@ -32,20 +32,20 @@ def isValidBST(root):
 
 ## Approach #2: Check If Within Range
 
-Alternatively, we could pass in two additional parameters to our helper function `valid(node, left, right)` that checks whether the subtree rooted at node is a valid BST. The additional parameters, `left` and `right`, represents the range of valid values for the current node. Initially, the range is set to negative infinity for left and positive infinity for right.
+Alternatively, we could pass in two additional parameters to our helper function `valid(node, minimum, maximum)` that checks whether the subtree rooted at node is a valid BST. The additional parameters, `minimum` and `maximum`, represents the range of valid values for the current node. Initially, the range is set to negative infinity for minimum and positive infinity for maximum.
 
-For each node, we check if its value lies within the range (left, right). If it does, we recursively check its left and right subtrees, updating the range accordingly. If any node violates the BST property, the function returns False. If the entire tree is validated, the function returns True.
+For each node, we check if its value lies within the range (minimum, maximum). If it does, we recursively check its left and right subtrees, updating the range accordingly. If any node violates the BST property, the function returns False. If the entire tree is validated, the function returns True.
 
 ```py
 def isValidBST(root):
-    def valid(node, left, right):
+    def valid(node, minimum, right):
         if not node:
             return True
-        if not (left < node.val < right):
+        if not (minimum < node.val < maximum):
             return False
         
         return (
-            valid(node.left, left, node.val) and valid(node.right, node.val, right)
+            valid(node.left, minimum, node.val) and valid(node.right, node.val, maximum)
         )
 
     return valid(root, float('-inf'), float('inf'))
