@@ -58,6 +58,8 @@ def isValidBST(root):
 
 **Approach #1: In-Order Sort Check**
 - [Python](solution1.py)
+- [Javascript](solution1.js)
 
 **Approach #2: Check If Within Range**
 - [Python](solution2.py)
+- [Javascript](solution2.js)
