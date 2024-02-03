@@ -12,8 +12,8 @@ We will also keep an additional prev pointer that closely follows the slow point
 
 # Complexity
 
-- Time complexity: *O(n)*
-- Space complexity: *O(1)*
+- Time complexity: $O(n)$
+- Space complexity: $O(1)$
 
 # Code
 

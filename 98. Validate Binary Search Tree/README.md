@@ -2,7 +2,7 @@
 
 The problem requires validating whether a given binary tree is a Binary Search Tree (BST) or not. In a BST, for each node, the values in its left subtree are less than the node's value, and the values in its right subtree are greater than the node's value.
 
-We could run through every node and make sure that it has a smaller left child an da larger right child, but this misses the case where a deeply nested child node satisfies the condition for its immediate parent but not for the grandparents or the root of the tree. For that, we would have to check every value against every other value of the tree to make sure that it is valid, this results in a time complexity of $$O(n^2)$$ which is undesirable for us.
+We could run through every node and make sure that it has a smaller left child an da larger right child, but this misses the case where a deeply nested child node satisfies the condition for its immediate parent but not for the grandparents or the root of the tree. For that, we would have to check every value against every other value of the tree to make sure that it is valid, this results in a time complexity of $O(n^2)$ which is undesirable for us.
 
 ## Approach #1: In-Order Sort Check
 
@@ -27,8 +27,8 @@ def isValidBST(root):
     return flag
 ```
 
-- **Time Complexity:** $$O(n)$$
-- **Space Complexity:** $$O(h)$$ *(the recursive call stack space used is proportional to the height of the binary tree)*
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(h)$ *(the recursive call stack space used is proportional to the height of the binary tree)*
 
 ## Approach #2: Check If Within Range
 
@@ -51,8 +51,8 @@ def isValidBST(root):
     return valid(root, float('-inf'), float('inf'))
 ```
 
-- **Time Complexity:** $$O(n)$$
-- **Space Complexity:** $$O(h)$$ *(the recursive call stack space used is proportional to the height of the binary tree)*
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(h)$ *(the recursive call stack space used is proportional to the height of the binary tree)*
 
 # Code
 

@@ -6,11 +6,11 @@ def deleteNode(node):
     node.next = node.next.next
 ```
 
-**Time:** $$O(1)$$ • **Space:** $$O(1)$$
+**Time:** $O(1)$ • **Space:** $O(1)$
 
 This is the best way to solve this problem, but it did not come to my mind initially. I actually thought of a solution similar to how we delete elements in an array, by shifting the next elements to the back.
 
-Although the iterative approach is not efficient and carries a time complexity of $$O(n)$$, it is still worth looking at as it helps work with linked lists as a beginner.
+Although the iterative approach is not efficient and carries a time complexity of $O(n)$, it is still worth looking at as it helps work with linked lists as a beginner.
 
 ## Iterative
 
@@ -27,7 +27,7 @@ def deleteNode(node):
     prev_curr.next = None
 ```
 
-**Time:** $$O(n)$$ • **Space:** $$O(1)$$
+**Time:** $O(n)$ • **Space:** $O(1)$
 
 ## Recursive
 
@@ -42,7 +42,7 @@ def deleteNode(node):
         deleteNode(node.next)
 ```
 
-**Time:** $$O(n)$$ • **Space:** $$O(n)$$
+**Time:** $O(n)$ • **Space:** $O(n)$
 
 # Code
 

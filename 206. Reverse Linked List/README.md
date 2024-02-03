@@ -13,8 +13,8 @@ to point at the previous nodes, and the old tail will be the new head.
 
 # Iterative Approach
 
-- **Time Complexity:** *O(n)*
-- **Space Complexity:** *O(1)*
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(1)$
 
 The most efficient, and easiest to understand method of solving this problem is the most obvious one. We simply traverse the linked list, and point each `node.next` toward the prevous node. Of course, we cannot simply look back on a singly linked list and so we will use two pointers. One pointer will traverse the list, another will closely follow, so we always have a "previous" node to point the current node back to.
 
@@ -45,8 +45,8 @@ In the end, we return `prev` because it should be at the end of the linked list,
 
 # Recursive Approach
 
-- **Time Complexity:** *O(n)*
-- **Space Complexity:** *O(n)* *(recusive call stack)*
+- **Time Complexity:** $O(n)$
+- **Space Complexity:** $O(n)$ *(recusive call stack)*
 
 A less efficient, but still valid approach is by using recursion. It involves dividng the main problem into sub problems and solving them individually.
 

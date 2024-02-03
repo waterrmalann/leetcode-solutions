@@ -12,8 +12,8 @@ The problem is asking us to remove duplicate elements from a sorted linked list.
 
 # Complexity
 
-- Time complexity: *O(n)*
-- Space complexity: *O(1)*
+- Time complexity: $O(n)$
+- Space complexity: $O(1)$
 
 # Code
 

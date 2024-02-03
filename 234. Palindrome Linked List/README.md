@@ -13,7 +13,7 @@ def isPalindrome(head):
             return False
     return True
 ```
-And definitely, yes it makes for a good solution that works! We keep the time complexity of *O(n)* but we introduce a space complexity of *O(n)* as well to store the extra array. The question specifically asks us to solve it in *O(1)* space. So there must be a better way to solve this.
+And definitely, yes it makes for a good solution that works! We keep the time complexity of $O(n)$ but we introduce a space complexity of $O(n)$ as well to store the extra array. The question specifically asks us to solve it in $O(1)$ space. So there must be a better way to solve this.
 
 We aren't forbidden from mutating the Linked List, so what if we use that to our advantage? Let's take a three step approach to solving this problem efficiently.
 
