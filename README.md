@@ -31,6 +31,7 @@ Python is used because I think that it reads like pseudocode for the most part, 
 | Problem  | Difficulty | Solution |
 | :-------- | :-------: | -------: | 
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | `Medium` | [Solution](/98.%20Validate%20Binary%20Search%20Tree/) |
+| [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | `Easy` | [Solution](/104.%20Maximum%20Depth%20of%20Binary%20Tree/) |
 
 ## Graphs
 
