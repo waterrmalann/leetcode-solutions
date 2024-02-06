@@ -88,9 +88,12 @@ def maxDepth(root):
 
 **Approach #1: Depth-First Search (Recursive)**
 - [Python](solution_dfs_recursive.py)
+- [Javascript](solution_dfs_recursive.js)
 
 **Approach #1: Depth-First Search (Iterative)**
 - [Python](solution_dfs_iterative.py)
+- [Javascript](solution_dfs_iterative.js)
 
 **Approach #2: Breadth-First Search**
 - [Python](solution_bfs.py)
+- [Javascript](solution_bfs.js)
