@@ -11,14 +11,14 @@ function TreeNode(val, left, right) {
  */
 var maxDepth = function (root) {
     const queue = [];
+    
     if (root) {
         queue.push(root);
     }
     
-    let levels = 0;
-
+    let depth = 0;
     while (queue.length > 0) {
-        levels++;
+        depth++;
         const currentLength = queue.length;
 
         for (let i = 0; i < currentLength; i++) {
@@ -29,5 +29,5 @@ var maxDepth = function (root) {
         }
     }
 
-    return levels;
+    return depth;
 };

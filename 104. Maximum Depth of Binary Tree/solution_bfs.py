@@ -15,10 +15,9 @@ class Solution:
         if root:
             q.append(root)
 
-        levels = 0
-
+        depth = 0
         while q:
-            levels += 1
+            depth += 1
             current_length = len(q)
             
             for _ in range(current_length):
@@ -27,4 +26,4 @@ class Solution:
                 node.left and q.append(node.left)
                 node.right and q.append(node.right)
         
-        return levels
+        return depth

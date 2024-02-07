@@ -11,15 +11,15 @@ class Solution:
     def maxDepth(self, root: Optional[TreeNode]) -> int:
         
         stack = [(root, 1)] # (node, depth)
-        maxDepth = 0
+        maximumDepth = 0
 
         while stack:
             node, depth = stack.pop()
         
             if node:
-                maxDepth = max(maxDepth, depth)
+                maximumDepth = max(maximumDepth, depth)
         
                 stack.append((node.left, depth + 1))
                 stack.append((node.right, depth + 1))
         
-        return maxDepth
+        return maximumDepth
