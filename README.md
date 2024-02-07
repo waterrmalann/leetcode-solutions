@@ -32,10 +32,11 @@ Python is used because I think that it reads like pseudocode for the most part, 
 | :-------- | :-------: | -------: | 
 | [98. Validate Binary Search Tree](https://leetcode.com/problems/validate-binary-search-tree/) | `Medium` | [Solution](/98.%20Validate%20Binary%20Search%20Tree/) |
 | [104. Maximum Depth of Binary Tree](https://leetcode.com/problems/maximum-depth-of-binary-tree/) | `Easy` | [Solution](/104.%20Maximum%20Depth%20of%20Binary%20Tree/) |
+| [111. Minimum Depth of Binary Tree](https://leetcode.com/problems/minimum-depth-of-binary-tree/) | `Easy` | [Solution](/111.%20Minimum%20Depth%20of%20Binary%20Tree/) |
 | [226. Invert Binary Tree](https://leetcode.com/problems/invert-binary-tree/) | `Easy` | [Solution](/226.%20Invert%20Binary%20Tree/) |
 | [101. Symmetric Tree](https://leetcode.com/problems/symmetric-tree/) | `Easy` | [Solution](101.%20Symmetric%20Tree/) |
 | [102. Binary Tree Level Order Traversal](https://leetcode.com/problems/binary-tree-level-order-traversal/) | `Medium` | [Solution](/102.%20Binary%20Tree%20Level%20Order%20Traversal/) |
-| [102. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | `Medium` | [Solution](/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/) |
+| [103. Binary Tree Zigzag Level Order Traversal](https://leetcode.com/problems/binary-tree-zigzag-level-order-traversal/) | `Medium` | [Solution](/103.%20Binary%20Tree%20Zigzag%20Level%20Order%20Traversal/) |
 | [297. Serialize and Deserialize Binary Tree](https://leetcode.com/problems/serialize-and-deserialize-binary-tree/) | `Hard` | [Solution](/297.%20Serialize%20and%20Deserialize%20Binary%20Tree/) |
 
 ## Graphs
