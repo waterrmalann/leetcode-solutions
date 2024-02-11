@@ -38,7 +38,7 @@ For each node, we check if its value lies within the range (minimum, maximum). I
 
 ```py
 def isValidBST(root):
-    def valid(node, minimum, right):
+    def valid(node, minimum, maximum):
         if not node:
             return True
         if not (minimum < node.val < maximum):
